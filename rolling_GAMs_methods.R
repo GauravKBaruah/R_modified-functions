@@ -209,7 +209,7 @@ shift.exp <- function(z,N,time){
   
 }
 
-#####################
+#################### MODIFIED Early Warning Signals giving KTAu values instead plots
 
 genericEWS<-function (timeseries, winsize = 50, detrending = c("no", "gaussian", 
                                                    "loess", "linear", "first-diff"), bandwidth = NULL, span = NULL, 
